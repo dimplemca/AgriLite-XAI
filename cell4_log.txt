@@ -1,0 +1,775 @@
+Device: cuda | Seeds: [42, 43, 44, 45, 46] | Variants: ['A_stock_ce', 'B_stock_kd', 'C_head256_ce', 'D_head256_kd', 'E_att_head256_ce', 'F_full_att_head256_kd']
+
+============================================================
+SEED 42  (pending: ['A_stock_ce', 'B_stock_kd', 'C_head256_ce', 'D_head256_kd', 'E_att_head256_ce', 'F_full_att_head256_kd'])
+============================================================
+Downloading: "https://download.pytorch.org/models/resnet50-11ad3fa6.pth" to /root/.cache/torch/hub/checkpoints/resnet50-11ad3fa6.pth
+100%|██████████| 97.8M/97.8M [00:00<00:00, 231MB/s]
+[s42-teacher] epoch 1/20 val_acc=0.6848 val_f1=0.6639
+[s42-teacher] epoch 2/20 val_acc=0.7515 val_f1=0.7423
+[s42-teacher] epoch 3/20 val_acc=0.8000 val_f1=0.7964
+[s42-teacher] epoch 4/20 val_acc=0.8212 val_f1=0.8205
+[s42-teacher] epoch 5/20 val_acc=0.8061 val_f1=0.8017
+[s42-teacher] epoch 6/20 val_acc=0.7879 val_f1=0.7768
+[s42-teacher] epoch 7/20 val_acc=0.8667 val_f1=0.8654
+[s42-teacher] epoch 8/20 val_acc=0.8424 val_f1=0.8380
+[s42-teacher] epoch 9/20 val_acc=0.8364 val_f1=0.8335
+[s42-teacher] epoch 10/20 val_acc=0.8455 val_f1=0.8418
+[s42-teacher] epoch 11/20 val_acc=0.8394 val_f1=0.8328
+[s42-teacher] epoch 12/20 val_acc=0.8455 val_f1=0.8385
+[s42-teacher] epoch 13/20 val_acc=0.8545 val_f1=0.8539
+[s42-teacher] epoch 14/20 val_acc=0.8636 val_f1=0.8632
+[s42-teacher] epoch 15/20 val_acc=0.8697 val_f1=0.8697
+[s42-teacher] epoch 16/20 val_acc=0.8515 val_f1=0.8501
+[s42-teacher] epoch 17/20 val_acc=0.8576 val_f1=0.8563
+[s42-teacher] epoch 18/20 val_acc=0.8545 val_f1=0.8532
+[s42-teacher] epoch 19/20 val_acc=0.8455 val_f1=0.8417
+[s42-teacher] epoch 20/20 val_acc=0.8576 val_f1=0.8564
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth" to /root/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth
+100%|██████████| 9.83M/9.83M [00:00<00:00, 225MB/s]
+[s42-A_stock_ce] epoch 1/20 val_acc=0.7242 val_f1=0.7069
+[s42-A_stock_ce] epoch 2/20 val_acc=0.7667 val_f1=0.7626
+[s42-A_stock_ce] epoch 3/20 val_acc=0.7697 val_f1=0.7627
+[s42-A_stock_ce] epoch 4/20 val_acc=0.7970 val_f1=0.7924
+[s42-A_stock_ce] epoch 5/20 val_acc=0.7667 val_f1=0.7548
+[s42-A_stock_ce] epoch 6/20 val_acc=0.7970 val_f1=0.7919
+[s42-A_stock_ce] epoch 7/20 val_acc=0.8182 val_f1=0.8155
+[s42-A_stock_ce] epoch 8/20 val_acc=0.7939 val_f1=0.7900
+[s42-A_stock_ce] epoch 9/20 val_acc=0.8333 val_f1=0.8267
+[s42-A_stock_ce] epoch 10/20 val_acc=0.8182 val_f1=0.8177
+[s42-A_stock_ce] epoch 11/20 val_acc=0.8091 val_f1=0.8066
+[s42-A_stock_ce] epoch 12/20 val_acc=0.8273 val_f1=0.8259
+[s42-A_stock_ce] epoch 13/20 val_acc=0.8182 val_f1=0.8134
+[s42-A_stock_ce] epoch 14/20 val_acc=0.8333 val_f1=0.8308
+[s42-A_stock_ce] epoch 15/20 val_acc=0.8303 val_f1=0.8302
+[s42-A_stock_ce] epoch 16/20 val_acc=0.8333 val_f1=0.8331
+[s42-A_stock_ce] epoch 17/20 val_acc=0.8273 val_f1=0.8276
+[s42-A_stock_ce] epoch 18/20 val_acc=0.8273 val_f1=0.8276
+[s42-A_stock_ce] epoch 19/20 val_acc=0.8242 val_f1=0.8242
+[s42-A_stock_ce] epoch 20/20 val_acc=0.8303 val_f1=0.8299
+[seed 42] A_stock_ce: acc=0.8333 f1=0.8302 params=1.540M
+[s42-B_stock_kd] epoch 1/20 val_acc=0.6818 val_f1=0.6628
+[s42-B_stock_kd] epoch 2/20 val_acc=0.7545 val_f1=0.7483
+[s42-B_stock_kd] epoch 3/20 val_acc=0.7606 val_f1=0.7529
+[s42-B_stock_kd] epoch 4/20 val_acc=0.8182 val_f1=0.8165
+[s42-B_stock_kd] epoch 5/20 val_acc=0.8152 val_f1=0.8112
+[s42-B_stock_kd] epoch 6/20 val_acc=0.8061 val_f1=0.8004
+[s42-B_stock_kd] epoch 7/20 val_acc=0.8152 val_f1=0.8109
+[s42-B_stock_kd] epoch 8/20 val_acc=0.8030 val_f1=0.7978
+[s42-B_stock_kd] epoch 9/20 val_acc=0.8121 val_f1=0.8047
+[s42-B_stock_kd] epoch 10/20 val_acc=0.8333 val_f1=0.8311
+[s42-B_stock_kd] epoch 11/20 val_acc=0.8333 val_f1=0.8325
+[s42-B_stock_kd] epoch 12/20 val_acc=0.8333 val_f1=0.8320
+[s42-B_stock_kd] epoch 13/20 val_acc=0.8242 val_f1=0.8227
+[s42-B_stock_kd] epoch 14/20 val_acc=0.8333 val_f1=0.8319
+[s42-B_stock_kd] epoch 15/20 val_acc=0.8303 val_f1=0.8294
+[s42-B_stock_kd] epoch 16/20 val_acc=0.8364 val_f1=0.8354
+[s42-B_stock_kd] epoch 17/20 val_acc=0.8333 val_f1=0.8327
+[s42-B_stock_kd] epoch 18/20 val_acc=0.8333 val_f1=0.8332
+[s42-B_stock_kd] epoch 19/20 val_acc=0.8333 val_f1=0.8331
+[s42-B_stock_kd] epoch 20/20 val_acc=0.8394 val_f1=0.8389
+[seed 42] B_stock_kd: acc=0.8576 f1=0.8545 params=1.540M
+[s42-C_head256_ce] epoch 1/20 val_acc=0.5424 val_f1=0.4849
+[s42-C_head256_ce] epoch 2/20 val_acc=0.7000 val_f1=0.6887
+[s42-C_head256_ce] epoch 3/20 val_acc=0.7667 val_f1=0.7613
+[s42-C_head256_ce] epoch 4/20 val_acc=0.7636 val_f1=0.7552
+[s42-C_head256_ce] epoch 5/20 val_acc=0.7545 val_f1=0.7473
+[s42-C_head256_ce] epoch 6/20 val_acc=0.7697 val_f1=0.7659
+[s42-C_head256_ce] epoch 7/20 val_acc=0.7939 val_f1=0.7899
+[s42-C_head256_ce] epoch 8/20 val_acc=0.8061 val_f1=0.8036
+[s42-C_head256_ce] epoch 9/20 val_acc=0.8091 val_f1=0.8107
+[s42-C_head256_ce] epoch 10/20 val_acc=0.8030 val_f1=0.8013
+[s42-C_head256_ce] epoch 11/20 val_acc=0.8091 val_f1=0.8054
+[s42-C_head256_ce] epoch 12/20 val_acc=0.8303 val_f1=0.8247
+[s42-C_head256_ce] epoch 13/20 val_acc=0.8212 val_f1=0.8198
+[s42-C_head256_ce] epoch 14/20 val_acc=0.8333 val_f1=0.8317
+[s42-C_head256_ce] epoch 15/20 val_acc=0.8455 val_f1=0.8442
+[s42-C_head256_ce] epoch 16/20 val_acc=0.8424 val_f1=0.8415
+[s42-C_head256_ce] epoch 17/20 val_acc=0.8303 val_f1=0.8283
+[s42-C_head256_ce] epoch 18/20 val_acc=0.8333 val_f1=0.8315
+[s42-C_head256_ce] epoch 19/20 val_acc=0.8364 val_f1=0.8349
+[s42-C_head256_ce] epoch 20/20 val_acc=0.8333 val_f1=0.8315
+[seed 42] C_head256_ce: acc=0.8303 f1=0.8258 params=1.080M
+[s42-D_head256_kd] epoch 1/20 val_acc=0.4667 val_f1=0.4163
+[s42-D_head256_kd] epoch 2/20 val_acc=0.6909 val_f1=0.6703
+[s42-D_head256_kd] epoch 3/20 val_acc=0.7333 val_f1=0.7264
+[s42-D_head256_kd] epoch 4/20 val_acc=0.7242 val_f1=0.7164
+[s42-D_head256_kd] epoch 5/20 val_acc=0.7455 val_f1=0.7377
+[s42-D_head256_kd] epoch 6/20 val_acc=0.7818 val_f1=0.7778
+[s42-D_head256_kd] epoch 7/20 val_acc=0.7758 val_f1=0.7723
+[s42-D_head256_kd] epoch 8/20 val_acc=0.7879 val_f1=0.7847
+[s42-D_head256_kd] epoch 9/20 val_acc=0.8182 val_f1=0.8170
+[s42-D_head256_kd] epoch 10/20 val_acc=0.8030 val_f1=0.8006
+[s42-D_head256_kd] epoch 11/20 val_acc=0.8000 val_f1=0.8000
+[s42-D_head256_kd] epoch 12/20 val_acc=0.8182 val_f1=0.8159
+[s42-D_head256_kd] epoch 13/20 val_acc=0.8364 val_f1=0.8357
+[s42-D_head256_kd] epoch 14/20 val_acc=0.8212 val_f1=0.8193
+[s42-D_head256_kd] epoch 15/20 val_acc=0.8273 val_f1=0.8248
+[s42-D_head256_kd] epoch 16/20 val_acc=0.8273 val_f1=0.8259
+[s42-D_head256_kd] epoch 17/20 val_acc=0.8333 val_f1=0.8328
+[s42-D_head256_kd] epoch 18/20 val_acc=0.8364 val_f1=0.8354
+[s42-D_head256_kd] epoch 19/20 val_acc=0.8333 val_f1=0.8311
+[s42-D_head256_kd] epoch 20/20 val_acc=0.8333 val_f1=0.8311
+[seed 42] D_head256_kd: acc=0.8242 f1=0.8177 params=1.080M
+[s42-E_att_head256_ce] epoch 1/20 val_acc=0.4485 val_f1=0.3925
+[s42-E_att_head256_ce] epoch 2/20 val_acc=0.7030 val_f1=0.6912
+[s42-E_att_head256_ce] epoch 3/20 val_acc=0.7152 val_f1=0.7141
+[s42-E_att_head256_ce] epoch 4/20 val_acc=0.7485 val_f1=0.7412
+[s42-E_att_head256_ce] epoch 5/20 val_acc=0.7848 val_f1=0.7760
+[s42-E_att_head256_ce] epoch 6/20 val_acc=0.7606 val_f1=0.7602
+[s42-E_att_head256_ce] epoch 7/20 val_acc=0.7909 val_f1=0.7771
+[s42-E_att_head256_ce] epoch 8/20 val_acc=0.7909 val_f1=0.7889
+[s42-E_att_head256_ce] epoch 9/20 val_acc=0.7939 val_f1=0.7907
+[s42-E_att_head256_ce] epoch 10/20 val_acc=0.7970 val_f1=0.7951
+[s42-E_att_head256_ce] epoch 11/20 val_acc=0.8061 val_f1=0.8002
+[s42-E_att_head256_ce] epoch 12/20 val_acc=0.7939 val_f1=0.7921
+[s42-E_att_head256_ce] epoch 13/20 val_acc=0.8091 val_f1=0.8091
+[s42-E_att_head256_ce] epoch 14/20 val_acc=0.8182 val_f1=0.8171
+[s42-E_att_head256_ce] epoch 15/20 val_acc=0.8152 val_f1=0.8126
+[s42-E_att_head256_ce] epoch 16/20 val_acc=0.8212 val_f1=0.8189
+[s42-E_att_head256_ce] epoch 17/20 val_acc=0.8212 val_f1=0.8182
+[s42-E_att_head256_ce] epoch 18/20 val_acc=0.8212 val_f1=0.8180
+[s42-E_att_head256_ce] epoch 19/20 val_acc=0.8273 val_f1=0.8249
+[s42-E_att_head256_ce] epoch 20/20 val_acc=0.8242 val_f1=0.8214
+[seed 42] E_att_head256_ce: acc=0.8273 f1=0.8220 params=1.192M
+[s42-F_full_att_head256_kd] epoch 1/20 val_acc=0.3455 val_f1=0.2606
+[s42-F_full_att_head256_kd] epoch 2/20 val_acc=0.6242 val_f1=0.5957
+[s42-F_full_att_head256_kd] epoch 3/20 val_acc=0.6848 val_f1=0.6763
+[s42-F_full_att_head256_kd] epoch 4/20 val_acc=0.7212 val_f1=0.7107
+[s42-F_full_att_head256_kd] epoch 5/20 val_acc=0.7636 val_f1=0.7531
+[s42-F_full_att_head256_kd] epoch 6/20 val_acc=0.7939 val_f1=0.7914
+[s42-F_full_att_head256_kd] epoch 7/20 val_acc=0.7939 val_f1=0.7888
+[s42-F_full_att_head256_kd] epoch 8/20 val_acc=0.7909 val_f1=0.7851
+[s42-F_full_att_head256_kd] epoch 9/20 val_acc=0.8030 val_f1=0.7967
+[s42-F_full_att_head256_kd] epoch 10/20 val_acc=0.8000 val_f1=0.7951
+[s42-F_full_att_head256_kd] epoch 11/20 val_acc=0.8152 val_f1=0.8092
+[s42-F_full_att_head256_kd] epoch 12/20 val_acc=0.8212 val_f1=0.8181
+[s42-F_full_att_head256_kd] epoch 13/20 val_acc=0.8121 val_f1=0.8088
+[s42-F_full_att_head256_kd] epoch 14/20 val_acc=0.8091 val_f1=0.8063
+[s42-F_full_att_head256_kd] epoch 15/20 val_acc=0.8212 val_f1=0.8176
+[s42-F_full_att_head256_kd] epoch 16/20 val_acc=0.8212 val_f1=0.8168
+[s42-F_full_att_head256_kd] epoch 17/20 val_acc=0.8242 val_f1=0.8200
+[s42-F_full_att_head256_kd] epoch 18/20 val_acc=0.8242 val_f1=0.8198
+[s42-F_full_att_head256_kd] epoch 19/20 val_acc=0.8273 val_f1=0.8243
+[s42-F_full_att_head256_kd] epoch 20/20 val_acc=0.8303 val_f1=0.8265
+[seed 42] F_full_att_head256_kd: acc=0.8364 f1=0.8318 params=1.192M
+
+============================================================
+SEED 43  (pending: ['A_stock_ce', 'B_stock_kd', 'C_head256_ce', 'D_head256_kd', 'E_att_head256_ce', 'F_full_att_head256_kd'])
+============================================================
+[s43-teacher] epoch 1/20 val_acc=0.6727 val_f1=0.6512
+[s43-teacher] epoch 2/20 val_acc=0.7455 val_f1=0.7318
+[s43-teacher] epoch 3/20 val_acc=0.7848 val_f1=0.7786
+[s43-teacher] epoch 4/20 val_acc=0.8121 val_f1=0.8080
+[s43-teacher] epoch 5/20 val_acc=0.8121 val_f1=0.8091
+[s43-teacher] epoch 6/20 val_acc=0.8091 val_f1=0.8083
+[s43-teacher] epoch 7/20 val_acc=0.8212 val_f1=0.8180
+[s43-teacher] epoch 8/20 val_acc=0.8061 val_f1=0.8033
+[s43-teacher] epoch 9/20 val_acc=0.8152 val_f1=0.8068
+[s43-teacher] epoch 10/20 val_acc=0.8000 val_f1=0.7960
+[s43-teacher] epoch 11/20 val_acc=0.8364 val_f1=0.8339
+[s43-teacher] epoch 12/20 val_acc=0.8333 val_f1=0.8316
+[s43-teacher] epoch 13/20 val_acc=0.8424 val_f1=0.8424
+[s43-teacher] epoch 14/20 val_acc=0.8485 val_f1=0.8482
+[s43-teacher] epoch 15/20 val_acc=0.8455 val_f1=0.8436
+[s43-teacher] epoch 16/20 val_acc=0.8515 val_f1=0.8514
+[s43-teacher] epoch 17/20 val_acc=0.8515 val_f1=0.8511
+[s43-teacher] epoch 18/20 val_acc=0.8545 val_f1=0.8559
+[s43-teacher] epoch 19/20 val_acc=0.8576 val_f1=0.8566
+[s43-teacher] epoch 20/20 val_acc=0.8606 val_f1=0.8598
+[s43-A_stock_ce] epoch 1/20 val_acc=0.6545 val_f1=0.6328
+[s43-A_stock_ce] epoch 2/20 val_acc=0.7424 val_f1=0.7332
+[s43-A_stock_ce] epoch 3/20 val_acc=0.7364 val_f1=0.7285
+[s43-A_stock_ce] epoch 4/20 val_acc=0.7848 val_f1=0.7824
+[s43-A_stock_ce] epoch 5/20 val_acc=0.7606 val_f1=0.7567
+[s43-A_stock_ce] epoch 6/20 val_acc=0.8030 val_f1=0.7996
+[s43-A_stock_ce] epoch 7/20 val_acc=0.8030 val_f1=0.8021
+[s43-A_stock_ce] epoch 8/20 val_acc=0.7939 val_f1=0.7919
+[s43-A_stock_ce] epoch 9/20 val_acc=0.8000 val_f1=0.7930
+[s43-A_stock_ce] epoch 10/20 val_acc=0.8030 val_f1=0.8007
+[s43-A_stock_ce] epoch 11/20 val_acc=0.7970 val_f1=0.7939
+[s43-A_stock_ce] epoch 12/20 val_acc=0.8303 val_f1=0.8280
+[s43-A_stock_ce] epoch 13/20 val_acc=0.8303 val_f1=0.8303
+[s43-A_stock_ce] epoch 14/20 val_acc=0.8242 val_f1=0.8233
+[s43-A_stock_ce] epoch 15/20 val_acc=0.8303 val_f1=0.8295
+[s43-A_stock_ce] epoch 16/20 val_acc=0.8242 val_f1=0.8238
+[s43-A_stock_ce] epoch 17/20 val_acc=0.8364 val_f1=0.8373
+[s43-A_stock_ce] epoch 18/20 val_acc=0.8333 val_f1=0.8329
+[s43-A_stock_ce] epoch 19/20 val_acc=0.8364 val_f1=0.8363
+[s43-A_stock_ce] epoch 20/20 val_acc=0.8333 val_f1=0.8332
+[seed 43] A_stock_ce: acc=0.8273 f1=0.8240 params=1.540M
+[s43-B_stock_kd] epoch 1/20 val_acc=0.6424 val_f1=0.6252
+[s43-B_stock_kd] epoch 2/20 val_acc=0.7303 val_f1=0.7161
+[s43-B_stock_kd] epoch 3/20 val_acc=0.7485 val_f1=0.7366
+[s43-B_stock_kd] epoch 4/20 val_acc=0.7697 val_f1=0.7607
+[s43-B_stock_kd] epoch 5/20 val_acc=0.7939 val_f1=0.7885
+[s43-B_stock_kd] epoch 6/20 val_acc=0.8152 val_f1=0.8119
+[s43-B_stock_kd] epoch 7/20 val_acc=0.8152 val_f1=0.8146
+[s43-B_stock_kd] epoch 8/20 val_acc=0.8000 val_f1=0.7967
+[s43-B_stock_kd] epoch 9/20 val_acc=0.8182 val_f1=0.8127
+[s43-B_stock_kd] epoch 10/20 val_acc=0.8152 val_f1=0.8147
+[s43-B_stock_kd] epoch 11/20 val_acc=0.8030 val_f1=0.7995
+[s43-B_stock_kd] epoch 12/20 val_acc=0.8333 val_f1=0.8316
+[s43-B_stock_kd] epoch 13/20 val_acc=0.8364 val_f1=0.8354
+[s43-B_stock_kd] epoch 14/20 val_acc=0.8121 val_f1=0.8088
+[s43-B_stock_kd] epoch 15/20 val_acc=0.8333 val_f1=0.8319
+[s43-B_stock_kd] epoch 16/20 val_acc=0.8303 val_f1=0.8270
+[s43-B_stock_kd] epoch 17/20 val_acc=0.8394 val_f1=0.8377
+[s43-B_stock_kd] epoch 18/20 val_acc=0.8364 val_f1=0.8348
+[s43-B_stock_kd] epoch 19/20 val_acc=0.8364 val_f1=0.8349
+[s43-B_stock_kd] epoch 20/20 val_acc=0.8394 val_f1=0.8380
+[seed 43] B_stock_kd: acc=0.8182 f1=0.8094 params=1.540M
+[s43-C_head256_ce] epoch 1/20 val_acc=0.5000 val_f1=0.4407
+[s43-C_head256_ce] epoch 2/20 val_acc=0.7273 val_f1=0.7067
+[s43-C_head256_ce] epoch 3/20 val_acc=0.7000 val_f1=0.6867
+[s43-C_head256_ce] epoch 4/20 val_acc=0.7909 val_f1=0.7854
+[s43-C_head256_ce] epoch 5/20 val_acc=0.7697 val_f1=0.7570
+[s43-C_head256_ce] epoch 6/20 val_acc=0.7758 val_f1=0.7674
+[s43-C_head256_ce] epoch 7/20 val_acc=0.7970 val_f1=0.7848
+[s43-C_head256_ce] epoch 8/20 val_acc=0.7788 val_f1=0.7724
+[s43-C_head256_ce] epoch 9/20 val_acc=0.7909 val_f1=0.7905
+[s43-C_head256_ce] epoch 10/20 val_acc=0.8121 val_f1=0.8112
+[s43-C_head256_ce] epoch 11/20 val_acc=0.8091 val_f1=0.8063
+[s43-C_head256_ce] epoch 12/20 val_acc=0.8212 val_f1=0.8190
+[s43-C_head256_ce] epoch 13/20 val_acc=0.8182 val_f1=0.8168
+[s43-C_head256_ce] epoch 14/20 val_acc=0.8333 val_f1=0.8316
+[s43-C_head256_ce] epoch 15/20 val_acc=0.8303 val_f1=0.8302
+[s43-C_head256_ce] epoch 16/20 val_acc=0.8455 val_f1=0.8457
+[s43-C_head256_ce] epoch 17/20 val_acc=0.8424 val_f1=0.8427
+[s43-C_head256_ce] epoch 18/20 val_acc=0.8364 val_f1=0.8370
+[s43-C_head256_ce] epoch 19/20 val_acc=0.8364 val_f1=0.8367
+[s43-C_head256_ce] epoch 20/20 val_acc=0.8364 val_f1=0.8364
+[seed 43] C_head256_ce: acc=0.8091 f1=0.8036 params=1.080M
+[s43-D_head256_kd] epoch 1/20 val_acc=0.3545 val_f1=0.2781
+[s43-D_head256_kd] epoch 2/20 val_acc=0.6879 val_f1=0.6641
+[s43-D_head256_kd] epoch 3/20 val_acc=0.7152 val_f1=0.7045
+[s43-D_head256_kd] epoch 4/20 val_acc=0.7727 val_f1=0.7610
+[s43-D_head256_kd] epoch 5/20 val_acc=0.7455 val_f1=0.7290
+[s43-D_head256_kd] epoch 6/20 val_acc=0.7879 val_f1=0.7779
+[s43-D_head256_kd] epoch 7/20 val_acc=0.7970 val_f1=0.7863
+[s43-D_head256_kd] epoch 8/20 val_acc=0.7818 val_f1=0.7715
+[s43-D_head256_kd] epoch 9/20 val_acc=0.8030 val_f1=0.7969
+[s43-D_head256_kd] epoch 10/20 val_acc=0.8273 val_f1=0.8251
+[s43-D_head256_kd] epoch 11/20 val_acc=0.8121 val_f1=0.8090
+[s43-D_head256_kd] epoch 12/20 val_acc=0.8091 val_f1=0.8033
+[s43-D_head256_kd] epoch 13/20 val_acc=0.8242 val_f1=0.8221
+[s43-D_head256_kd] epoch 14/20 val_acc=0.8242 val_f1=0.8222
+[s43-D_head256_kd] epoch 15/20 val_acc=0.8333 val_f1=0.8323
+[s43-D_head256_kd] epoch 16/20 val_acc=0.8303 val_f1=0.8302
+[s43-D_head256_kd] epoch 17/20 val_acc=0.8333 val_f1=0.8329
+[s43-D_head256_kd] epoch 18/20 val_acc=0.8424 val_f1=0.8428
+[s43-D_head256_kd] epoch 19/20 val_acc=0.8394 val_f1=0.8397
+[s43-D_head256_kd] epoch 20/20 val_acc=0.8394 val_f1=0.8397
+[seed 43] D_head256_kd: acc=0.8182 f1=0.8081 params=1.080M
+[s43-E_att_head256_ce] epoch 1/20 val_acc=0.4576 val_f1=0.3977
+[s43-E_att_head256_ce] epoch 2/20 val_acc=0.6727 val_f1=0.6616
+[s43-E_att_head256_ce] epoch 3/20 val_acc=0.7212 val_f1=0.7163
+[s43-E_att_head256_ce] epoch 4/20 val_acc=0.7485 val_f1=0.7390
+[s43-E_att_head256_ce] epoch 5/20 val_acc=0.7485 val_f1=0.7369
+[s43-E_att_head256_ce] epoch 6/20 val_acc=0.7606 val_f1=0.7560
+[s43-E_att_head256_ce] epoch 7/20 val_acc=0.7667 val_f1=0.7604
+[s43-E_att_head256_ce] epoch 8/20 val_acc=0.7909 val_f1=0.7826
+[s43-E_att_head256_ce] epoch 9/20 val_acc=0.7939 val_f1=0.7896
+[s43-E_att_head256_ce] epoch 10/20 val_acc=0.8030 val_f1=0.7984
+[s43-E_att_head256_ce] epoch 11/20 val_acc=0.7879 val_f1=0.7788
+[s43-E_att_head256_ce] epoch 12/20 val_acc=0.8000 val_f1=0.7925
+[s43-E_att_head256_ce] epoch 13/20 val_acc=0.7939 val_f1=0.7867
+[s43-E_att_head256_ce] epoch 14/20 val_acc=0.8091 val_f1=0.8033
+[s43-E_att_head256_ce] epoch 15/20 val_acc=0.8091 val_f1=0.8068
+[s43-E_att_head256_ce] epoch 16/20 val_acc=0.8121 val_f1=0.8085
+[s43-E_att_head256_ce] epoch 17/20 val_acc=0.8121 val_f1=0.8099
+[s43-E_att_head256_ce] epoch 18/20 val_acc=0.8152 val_f1=0.8123
+[s43-E_att_head256_ce] epoch 19/20 val_acc=0.8152 val_f1=0.8120
+[s43-E_att_head256_ce] epoch 20/20 val_acc=0.8182 val_f1=0.8157
+[seed 43] E_att_head256_ce: acc=0.8273 f1=0.8237 params=1.192M
+[s43-F_full_att_head256_kd] epoch 1/20 val_acc=0.4091 val_f1=0.3585
+[s43-F_full_att_head256_kd] epoch 2/20 val_acc=0.6394 val_f1=0.6101
+[s43-F_full_att_head256_kd] epoch 3/20 val_acc=0.7061 val_f1=0.6954
+[s43-F_full_att_head256_kd] epoch 4/20 val_acc=0.7273 val_f1=0.7161
+[s43-F_full_att_head256_kd] epoch 5/20 val_acc=0.7303 val_f1=0.7135
+[s43-F_full_att_head256_kd] epoch 6/20 val_acc=0.7667 val_f1=0.7583
+[s43-F_full_att_head256_kd] epoch 7/20 val_acc=0.7939 val_f1=0.7863
+[s43-F_full_att_head256_kd] epoch 8/20 val_acc=0.7939 val_f1=0.7860
+[s43-F_full_att_head256_kd] epoch 9/20 val_acc=0.8182 val_f1=0.8157
+[s43-F_full_att_head256_kd] epoch 10/20 val_acc=0.7970 val_f1=0.7912
+[s43-F_full_att_head256_kd] epoch 11/20 val_acc=0.8000 val_f1=0.7853
+[s43-F_full_att_head256_kd] epoch 12/20 val_acc=0.8000 val_f1=0.7948
+[s43-F_full_att_head256_kd] epoch 13/20 val_acc=0.8182 val_f1=0.8130
+[s43-F_full_att_head256_kd] epoch 14/20 val_acc=0.8000 val_f1=0.7971
+[s43-F_full_att_head256_kd] epoch 15/20 val_acc=0.8182 val_f1=0.8193
+[s43-F_full_att_head256_kd] epoch 16/20 val_acc=0.8212 val_f1=0.8185
+[s43-F_full_att_head256_kd] epoch 17/20 val_acc=0.8182 val_f1=0.8179
+[s43-F_full_att_head256_kd] epoch 18/20 val_acc=0.8212 val_f1=0.8216
+[s43-F_full_att_head256_kd] epoch 19/20 val_acc=0.8182 val_f1=0.8181
+[s43-F_full_att_head256_kd] epoch 20/20 val_acc=0.8273 val_f1=0.8263
+[seed 43] F_full_att_head256_kd: acc=0.8091 f1=0.7991 params=1.192M
+
+============================================================
+SEED 44  (pending: ['A_stock_ce', 'B_stock_kd', 'C_head256_ce', 'D_head256_kd', 'E_att_head256_ce', 'F_full_att_head256_kd'])
+============================================================
+[s44-teacher] epoch 1/20 val_acc=0.6939 val_f1=0.6771
+[s44-teacher] epoch 2/20 val_acc=0.7818 val_f1=0.7713
+[s44-teacher] epoch 3/20 val_acc=0.7636 val_f1=0.7534
+[s44-teacher] epoch 4/20 val_acc=0.7788 val_f1=0.7707
+[s44-teacher] epoch 5/20 val_acc=0.8273 val_f1=0.8217
+[s44-teacher] epoch 6/20 val_acc=0.8242 val_f1=0.8210
+[s44-teacher] epoch 7/20 val_acc=0.8121 val_f1=0.8132
+[s44-teacher] epoch 8/20 val_acc=0.8515 val_f1=0.8484
+[s44-teacher] epoch 9/20 val_acc=0.8333 val_f1=0.8309
+[s44-teacher] epoch 10/20 val_acc=0.8455 val_f1=0.8438
+[s44-teacher] epoch 11/20 val_acc=0.8606 val_f1=0.8581
+[s44-teacher] epoch 12/20 val_acc=0.8394 val_f1=0.8364
+[s44-teacher] epoch 13/20 val_acc=0.8576 val_f1=0.8562
+[s44-teacher] epoch 14/20 val_acc=0.8576 val_f1=0.8539
+[s44-teacher] epoch 15/20 val_acc=0.8576 val_f1=0.8565
+[s44-teacher] epoch 16/20 val_acc=0.8697 val_f1=0.8681
+[s44-teacher] epoch 17/20 val_acc=0.8606 val_f1=0.8589
+[s44-teacher] epoch 18/20 val_acc=0.8545 val_f1=0.8512
+[s44-teacher] epoch 19/20 val_acc=0.8576 val_f1=0.8557
+[s44-teacher] epoch 20/20 val_acc=0.8606 val_f1=0.8597
+[s44-A_stock_ce] epoch 1/20 val_acc=0.6576 val_f1=0.6441
+[s44-A_stock_ce] epoch 2/20 val_acc=0.7182 val_f1=0.7064
+[s44-A_stock_ce] epoch 3/20 val_acc=0.7788 val_f1=0.7772
+[s44-A_stock_ce] epoch 4/20 val_acc=0.7788 val_f1=0.7667
+[s44-A_stock_ce] epoch 5/20 val_acc=0.7848 val_f1=0.7780
+[s44-A_stock_ce] epoch 6/20 val_acc=0.7879 val_f1=0.7819
+[s44-A_stock_ce] epoch 7/20 val_acc=0.8182 val_f1=0.8144
+[s44-A_stock_ce] epoch 8/20 val_acc=0.8242 val_f1=0.8222
+[s44-A_stock_ce] epoch 9/20 val_acc=0.8091 val_f1=0.8073
+[s44-A_stock_ce] epoch 10/20 val_acc=0.8273 val_f1=0.8243
+[s44-A_stock_ce] epoch 11/20 val_acc=0.8061 val_f1=0.8042
+[s44-A_stock_ce] epoch 12/20 val_acc=0.8121 val_f1=0.8102
+[s44-A_stock_ce] epoch 13/20 val_acc=0.8091 val_f1=0.8076
+[s44-A_stock_ce] epoch 14/20 val_acc=0.8121 val_f1=0.8101
+[s44-A_stock_ce] epoch 15/20 val_acc=0.8212 val_f1=0.8208
+[s44-A_stock_ce] epoch 16/20 val_acc=0.8152 val_f1=0.8153
+[s44-A_stock_ce] epoch 17/20 val_acc=0.8333 val_f1=0.8323
+[s44-A_stock_ce] epoch 18/20 val_acc=0.8303 val_f1=0.8291
+[s44-A_stock_ce] epoch 19/20 val_acc=0.8303 val_f1=0.8288
+[s44-A_stock_ce] epoch 20/20 val_acc=0.8333 val_f1=0.8317
+[seed 44] A_stock_ce: acc=0.8636 f1=0.8575 params=1.540M
+[s44-B_stock_kd] epoch 1/20 val_acc=0.6091 val_f1=0.5798
+[s44-B_stock_kd] epoch 2/20 val_acc=0.7030 val_f1=0.6853
+[s44-B_stock_kd] epoch 3/20 val_acc=0.7606 val_f1=0.7500
+[s44-B_stock_kd] epoch 4/20 val_acc=0.7818 val_f1=0.7699
+[s44-B_stock_kd] epoch 5/20 val_acc=0.7909 val_f1=0.7796
+[s44-B_stock_kd] epoch 6/20 val_acc=0.8061 val_f1=0.8052
+[s44-B_stock_kd] epoch 7/20 val_acc=0.8182 val_f1=0.8165
+[s44-B_stock_kd] epoch 8/20 val_acc=0.8000 val_f1=0.7995
+[s44-B_stock_kd] epoch 9/20 val_acc=0.8030 val_f1=0.8016
+[s44-B_stock_kd] epoch 10/20 val_acc=0.8152 val_f1=0.8135
+[s44-B_stock_kd] epoch 11/20 val_acc=0.8273 val_f1=0.8257
+[s44-B_stock_kd] epoch 12/20 val_acc=0.8273 val_f1=0.8266
+[s44-B_stock_kd] epoch 13/20 val_acc=0.8242 val_f1=0.8219
+[s44-B_stock_kd] epoch 14/20 val_acc=0.8303 val_f1=0.8270
+[s44-B_stock_kd] epoch 15/20 val_acc=0.8303 val_f1=0.8291
+[s44-B_stock_kd] epoch 16/20 val_acc=0.8333 val_f1=0.8322
+[s44-B_stock_kd] epoch 17/20 val_acc=0.8303 val_f1=0.8285
+[s44-B_stock_kd] epoch 18/20 val_acc=0.8333 val_f1=0.8321
+[s44-B_stock_kd] epoch 19/20 val_acc=0.8333 val_f1=0.8315
+[s44-B_stock_kd] epoch 20/20 val_acc=0.8364 val_f1=0.8348
+[seed 44] B_stock_kd: acc=0.8394 f1=0.8316 params=1.540M
+[s44-C_head256_ce] epoch 1/20 val_acc=0.4818 val_f1=0.4440
+[s44-C_head256_ce] epoch 2/20 val_acc=0.6485 val_f1=0.6344
+[s44-C_head256_ce] epoch 3/20 val_acc=0.6909 val_f1=0.6741
+[s44-C_head256_ce] epoch 4/20 val_acc=0.7364 val_f1=0.7266
+[s44-C_head256_ce] epoch 5/20 val_acc=0.7727 val_f1=0.7715
+[s44-C_head256_ce] epoch 6/20 val_acc=0.7909 val_f1=0.7819
+[s44-C_head256_ce] epoch 7/20 val_acc=0.8061 val_f1=0.8015
+[s44-C_head256_ce] epoch 8/20 val_acc=0.7788 val_f1=0.7728
+[s44-C_head256_ce] epoch 9/20 val_acc=0.8061 val_f1=0.8049
+[s44-C_head256_ce] epoch 10/20 val_acc=0.7909 val_f1=0.7851
+[s44-C_head256_ce] epoch 11/20 val_acc=0.8091 val_f1=0.7972
+[s44-C_head256_ce] epoch 12/20 val_acc=0.8091 val_f1=0.8078
+[s44-C_head256_ce] epoch 13/20 val_acc=0.8364 val_f1=0.8355
+[s44-C_head256_ce] epoch 14/20 val_acc=0.8242 val_f1=0.8244
+[s44-C_head256_ce] epoch 15/20 val_acc=0.8273 val_f1=0.8262
+[s44-C_head256_ce] epoch 16/20 val_acc=0.8212 val_f1=0.8201
+[s44-C_head256_ce] epoch 17/20 val_acc=0.8303 val_f1=0.8304
+[s44-C_head256_ce] epoch 18/20 val_acc=0.8273 val_f1=0.8275
+[s44-C_head256_ce] epoch 19/20 val_acc=0.8273 val_f1=0.8268
+[s44-C_head256_ce] epoch 20/20 val_acc=0.8273 val_f1=0.8268
+[seed 44] C_head256_ce: acc=0.8091 f1=0.8062 params=1.080M
+[s44-D_head256_kd] epoch 1/20 val_acc=0.4576 val_f1=0.4062
+[s44-D_head256_kd] epoch 2/20 val_acc=0.5848 val_f1=0.5584
+[s44-D_head256_kd] epoch 3/20 val_acc=0.6576 val_f1=0.6319
+[s44-D_head256_kd] epoch 4/20 val_acc=0.7152 val_f1=0.6990
+[s44-D_head256_kd] epoch 5/20 val_acc=0.7667 val_f1=0.7615
+[s44-D_head256_kd] epoch 6/20 val_acc=0.7667 val_f1=0.7562
+[s44-D_head256_kd] epoch 7/20 val_acc=0.7939 val_f1=0.7925
+[s44-D_head256_kd] epoch 8/20 val_acc=0.7667 val_f1=0.7599
+[s44-D_head256_kd] epoch 9/20 val_acc=0.7667 val_f1=0.7616
+[s44-D_head256_kd] epoch 10/20 val_acc=0.8061 val_f1=0.8030
+[s44-D_head256_kd] epoch 11/20 val_acc=0.8061 val_f1=0.8026
+[s44-D_head256_kd] epoch 12/20 val_acc=0.8061 val_f1=0.8038
+[s44-D_head256_kd] epoch 13/20 val_acc=0.8152 val_f1=0.8145
+[s44-D_head256_kd] epoch 14/20 val_acc=0.8182 val_f1=0.8165
+[s44-D_head256_kd] epoch 15/20 val_acc=0.8182 val_f1=0.8156
+[s44-D_head256_kd] epoch 16/20 val_acc=0.8242 val_f1=0.8216
+[s44-D_head256_kd] epoch 17/20 val_acc=0.8212 val_f1=0.8182
+[s44-D_head256_kd] epoch 18/20 val_acc=0.8182 val_f1=0.8151
+[s44-D_head256_kd] epoch 19/20 val_acc=0.8182 val_f1=0.8158
+[s44-D_head256_kd] epoch 20/20 val_acc=0.8152 val_f1=0.8126
+[seed 44] D_head256_kd: acc=0.8121 f1=0.8037 params=1.080M
+[s44-E_att_head256_ce] epoch 1/20 val_acc=0.4485 val_f1=0.4107
+[s44-E_att_head256_ce] epoch 2/20 val_acc=0.6576 val_f1=0.6266
+[s44-E_att_head256_ce] epoch 3/20 val_acc=0.7394 val_f1=0.7137
+[s44-E_att_head256_ce] epoch 4/20 val_acc=0.7636 val_f1=0.7560
+[s44-E_att_head256_ce] epoch 5/20 val_acc=0.7545 val_f1=0.7494
+[s44-E_att_head256_ce] epoch 6/20 val_acc=0.7939 val_f1=0.7908
+[s44-E_att_head256_ce] epoch 7/20 val_acc=0.7788 val_f1=0.7742
+[s44-E_att_head256_ce] epoch 8/20 val_acc=0.7939 val_f1=0.7888
+[s44-E_att_head256_ce] epoch 9/20 val_acc=0.7879 val_f1=0.7830
+[s44-E_att_head256_ce] epoch 10/20 val_acc=0.8061 val_f1=0.8057
+[s44-E_att_head256_ce] epoch 11/20 val_acc=0.8242 val_f1=0.8200
+[s44-E_att_head256_ce] epoch 12/20 val_acc=0.8242 val_f1=0.8220
+[s44-E_att_head256_ce] epoch 13/20 val_acc=0.8394 val_f1=0.8390
+[s44-E_att_head256_ce] epoch 14/20 val_acc=0.8242 val_f1=0.8236
+[s44-E_att_head256_ce] epoch 15/20 val_acc=0.8273 val_f1=0.8258
+[s44-E_att_head256_ce] epoch 16/20 val_acc=0.8333 val_f1=0.8326
+[s44-E_att_head256_ce] epoch 17/20 val_acc=0.8242 val_f1=0.8245
+[s44-E_att_head256_ce] epoch 18/20 val_acc=0.8242 val_f1=0.8243
+[s44-E_att_head256_ce] epoch 19/20 val_acc=0.8242 val_f1=0.8243
+[s44-E_att_head256_ce] epoch 20/20 val_acc=0.8242 val_f1=0.8244
+[seed 44] E_att_head256_ce: acc=0.8303 f1=0.8278 params=1.192M
+[s44-F_full_att_head256_kd] epoch 1/20 val_acc=0.3182 val_f1=0.2493
+[s44-F_full_att_head256_kd] epoch 2/20 val_acc=0.6333 val_f1=0.5961
+[s44-F_full_att_head256_kd] epoch 3/20 val_acc=0.6939 val_f1=0.6715
+[s44-F_full_att_head256_kd] epoch 4/20 val_acc=0.7758 val_f1=0.7699
+[s44-F_full_att_head256_kd] epoch 5/20 val_acc=0.7697 val_f1=0.7626
+[s44-F_full_att_head256_kd] epoch 6/20 val_acc=0.7909 val_f1=0.7875
+[s44-F_full_att_head256_kd] epoch 7/20 val_acc=0.7788 val_f1=0.7736
+[s44-F_full_att_head256_kd] epoch 8/20 val_acc=0.7939 val_f1=0.7913
+[s44-F_full_att_head256_kd] epoch 9/20 val_acc=0.7818 val_f1=0.7775
+[s44-F_full_att_head256_kd] epoch 10/20 val_acc=0.8030 val_f1=0.8018
+[s44-F_full_att_head256_kd] epoch 11/20 val_acc=0.8061 val_f1=0.8038
+[s44-F_full_att_head256_kd] epoch 12/20 val_acc=0.8242 val_f1=0.8242
+[s44-F_full_att_head256_kd] epoch 13/20 val_acc=0.8091 val_f1=0.8074
+[s44-F_full_att_head256_kd] epoch 14/20 val_acc=0.8121 val_f1=0.8120
+[s44-F_full_att_head256_kd] epoch 15/20 val_acc=0.8212 val_f1=0.8208
+[s44-F_full_att_head256_kd] epoch 16/20 val_acc=0.8091 val_f1=0.8072
+[s44-F_full_att_head256_kd] epoch 17/20 val_acc=0.8242 val_f1=0.8227
+[s44-F_full_att_head256_kd] epoch 18/20 val_acc=0.8212 val_f1=0.8193
+[s44-F_full_att_head256_kd] epoch 19/20 val_acc=0.8212 val_f1=0.8193
+[s44-F_full_att_head256_kd] epoch 20/20 val_acc=0.8182 val_f1=0.8162
+[seed 44] F_full_att_head256_kd: acc=0.8333 f1=0.8282 params=1.192M
+
+============================================================
+SEED 45  (pending: ['A_stock_ce', 'B_stock_kd', 'C_head256_ce', 'D_head256_kd', 'E_att_head256_ce', 'F_full_att_head256_kd'])
+============================================================
+[s45-teacher] epoch 1/20 val_acc=0.6939 val_f1=0.6670
+[s45-teacher] epoch 2/20 val_acc=0.7333 val_f1=0.7154
+[s45-teacher] epoch 3/20 val_acc=0.8061 val_f1=0.7994
+[s45-teacher] epoch 4/20 val_acc=0.7788 val_f1=0.7693
+[s45-teacher] epoch 5/20 val_acc=0.7939 val_f1=0.7846
+[s45-teacher] epoch 6/20 val_acc=0.8333 val_f1=0.8268
+[s45-teacher] epoch 7/20 val_acc=0.7848 val_f1=0.7831
+[s45-teacher] epoch 8/20 val_acc=0.8121 val_f1=0.8060
+[s45-teacher] epoch 9/20 val_acc=0.8364 val_f1=0.8347
+[s45-teacher] epoch 10/20 val_acc=0.8303 val_f1=0.8284
+[s45-teacher] epoch 11/20 val_acc=0.8364 val_f1=0.8372
+[s45-teacher] epoch 12/20 val_acc=0.8303 val_f1=0.8296
+[s45-teacher] epoch 13/20 val_acc=0.8394 val_f1=0.8375
+[s45-teacher] epoch 14/20 val_acc=0.8424 val_f1=0.8419
+[s45-teacher] epoch 15/20 val_acc=0.8515 val_f1=0.8511
+[s45-teacher] epoch 16/20 val_acc=0.8485 val_f1=0.8476
+[s45-teacher] epoch 17/20 val_acc=0.8455 val_f1=0.8435
+[s45-teacher] epoch 18/20 val_acc=0.8636 val_f1=0.8626
+[s45-teacher] epoch 19/20 val_acc=0.8515 val_f1=0.8493
+[s45-teacher] epoch 20/20 val_acc=0.8515 val_f1=0.8495
+[s45-A_stock_ce] epoch 1/20 val_acc=0.6939 val_f1=0.6805
+[s45-A_stock_ce] epoch 2/20 val_acc=0.7545 val_f1=0.7345
+[s45-A_stock_ce] epoch 3/20 val_acc=0.7576 val_f1=0.7462
+[s45-A_stock_ce] epoch 4/20 val_acc=0.7818 val_f1=0.7769
+[s45-A_stock_ce] epoch 5/20 val_acc=0.7788 val_f1=0.7752
+[s45-A_stock_ce] epoch 6/20 val_acc=0.7727 val_f1=0.7708
+[s45-A_stock_ce] epoch 7/20 val_acc=0.8061 val_f1=0.8005
+[s45-A_stock_ce] epoch 8/20 val_acc=0.7939 val_f1=0.7895
+[s45-A_stock_ce] epoch 9/20 val_acc=0.7848 val_f1=0.7796
+[s45-A_stock_ce] epoch 10/20 val_acc=0.8091 val_f1=0.8042
+[s45-A_stock_ce] epoch 11/20 val_acc=0.8091 val_f1=0.8040
+[s45-A_stock_ce] epoch 12/20 val_acc=0.8333 val_f1=0.8336
+[s45-A_stock_ce] epoch 13/20 val_acc=0.8333 val_f1=0.8327
+[s45-A_stock_ce] epoch 14/20 val_acc=0.8424 val_f1=0.8419
+[s45-A_stock_ce] epoch 15/20 val_acc=0.8424 val_f1=0.8420
+[s45-A_stock_ce] epoch 16/20 val_acc=0.8333 val_f1=0.8314
+[s45-A_stock_ce] epoch 17/20 val_acc=0.8455 val_f1=0.8449
+[s45-A_stock_ce] epoch 18/20 val_acc=0.8364 val_f1=0.8348
+[s45-A_stock_ce] epoch 19/20 val_acc=0.8424 val_f1=0.8408
+[s45-A_stock_ce] epoch 20/20 val_acc=0.8455 val_f1=0.8449
+[seed 45] A_stock_ce: acc=0.8273 f1=0.8218 params=1.540M
+[s45-B_stock_kd] epoch 1/20 val_acc=0.5909 val_f1=0.5763
+[s45-B_stock_kd] epoch 2/20 val_acc=0.6970 val_f1=0.6728
+[s45-B_stock_kd] epoch 3/20 val_acc=0.7576 val_f1=0.7493
+[s45-B_stock_kd] epoch 4/20 val_acc=0.7818 val_f1=0.7758
+[s45-B_stock_kd] epoch 5/20 val_acc=0.7970 val_f1=0.7913
+[s45-B_stock_kd] epoch 6/20 val_acc=0.7879 val_f1=0.7835
+[s45-B_stock_kd] epoch 7/20 val_acc=0.8152 val_f1=0.8076
+[s45-B_stock_kd] epoch 8/20 val_acc=0.8152 val_f1=0.8124
+[s45-B_stock_kd] epoch 9/20 val_acc=0.7939 val_f1=0.7824
+[s45-B_stock_kd] epoch 10/20 val_acc=0.8394 val_f1=0.8378
+[s45-B_stock_kd] epoch 11/20 val_acc=0.8303 val_f1=0.8285
+[s45-B_stock_kd] epoch 12/20 val_acc=0.8303 val_f1=0.8302
+[s45-B_stock_kd] epoch 13/20 val_acc=0.8242 val_f1=0.8225
+[s45-B_stock_kd] epoch 14/20 val_acc=0.8303 val_f1=0.8271
+[s45-B_stock_kd] epoch 15/20 val_acc=0.8394 val_f1=0.8380
+[s45-B_stock_kd] epoch 16/20 val_acc=0.8303 val_f1=0.8285
+[s45-B_stock_kd] epoch 17/20 val_acc=0.8303 val_f1=0.8280
+[s45-B_stock_kd] epoch 18/20 val_acc=0.8394 val_f1=0.8378
+[s45-B_stock_kd] epoch 19/20 val_acc=0.8364 val_f1=0.8346
+[s45-B_stock_kd] epoch 20/20 val_acc=0.8364 val_f1=0.8346
+[seed 45] B_stock_kd: acc=0.8576 f1=0.8548 params=1.540M
+[s45-C_head256_ce] epoch 1/20 val_acc=0.6000 val_f1=0.5685
+[s45-C_head256_ce] epoch 2/20 val_acc=0.6758 val_f1=0.6520
+[s45-C_head256_ce] epoch 3/20 val_acc=0.7121 val_f1=0.6913
+[s45-C_head256_ce] epoch 4/20 val_acc=0.7485 val_f1=0.7368
+[s45-C_head256_ce] epoch 5/20 val_acc=0.7879 val_f1=0.7842
+[s45-C_head256_ce] epoch 6/20 val_acc=0.7576 val_f1=0.7536
+[s45-C_head256_ce] epoch 7/20 val_acc=0.8152 val_f1=0.8171
+[s45-C_head256_ce] epoch 8/20 val_acc=0.7970 val_f1=0.7949
+[s45-C_head256_ce] epoch 9/20 val_acc=0.7970 val_f1=0.7961
+[s45-C_head256_ce] epoch 10/20 val_acc=0.8121 val_f1=0.8121
+[s45-C_head256_ce] epoch 11/20 val_acc=0.8303 val_f1=0.8286
+[s45-C_head256_ce] epoch 12/20 val_acc=0.8121 val_f1=0.8111
+[s45-C_head256_ce] epoch 13/20 val_acc=0.8242 val_f1=0.8239
+[s45-C_head256_ce] epoch 14/20 val_acc=0.8121 val_f1=0.8102
+[s45-C_head256_ce] epoch 15/20 val_acc=0.8303 val_f1=0.8290
+[s45-C_head256_ce] epoch 16/20 val_acc=0.8394 val_f1=0.8393
+[s45-C_head256_ce] epoch 17/20 val_acc=0.8545 val_f1=0.8543
+[s45-C_head256_ce] epoch 18/20 val_acc=0.8455 val_f1=0.8445
+[s45-C_head256_ce] epoch 19/20 val_acc=0.8455 val_f1=0.8447
+[s45-C_head256_ce] epoch 20/20 val_acc=0.8455 val_f1=0.8447
+[seed 45] C_head256_ce: acc=0.8485 f1=0.8459 params=1.080M
+[s45-D_head256_kd] epoch 1/20 val_acc=0.4121 val_f1=0.3772
+[s45-D_head256_kd] epoch 2/20 val_acc=0.6182 val_f1=0.5899
+[s45-D_head256_kd] epoch 3/20 val_acc=0.6545 val_f1=0.6350
+[s45-D_head256_kd] epoch 4/20 val_acc=0.7485 val_f1=0.7417
+[s45-D_head256_kd] epoch 5/20 val_acc=0.7636 val_f1=0.7604
+[s45-D_head256_kd] epoch 6/20 val_acc=0.8030 val_f1=0.7999
+[s45-D_head256_kd] epoch 7/20 val_acc=0.7970 val_f1=0.7976
+[s45-D_head256_kd] epoch 8/20 val_acc=0.7879 val_f1=0.7840
+[s45-D_head256_kd] epoch 9/20 val_acc=0.7939 val_f1=0.7923
+[s45-D_head256_kd] epoch 10/20 val_acc=0.8212 val_f1=0.8209
+[s45-D_head256_kd] epoch 11/20 val_acc=0.8152 val_f1=0.8128
+[s45-D_head256_kd] epoch 12/20 val_acc=0.7970 val_f1=0.7946
+[s45-D_head256_kd] epoch 13/20 val_acc=0.8212 val_f1=0.8224
+[s45-D_head256_kd] epoch 14/20 val_acc=0.8242 val_f1=0.8237
+[s45-D_head256_kd] epoch 15/20 val_acc=0.8242 val_f1=0.8247
+[s45-D_head256_kd] epoch 16/20 val_acc=0.8273 val_f1=0.8280
+[s45-D_head256_kd] epoch 17/20 val_acc=0.8364 val_f1=0.8371
+[s45-D_head256_kd] epoch 18/20 val_acc=0.8424 val_f1=0.8431
+[s45-D_head256_kd] epoch 19/20 val_acc=0.8333 val_f1=0.8336
+[s45-D_head256_kd] epoch 20/20 val_acc=0.8333 val_f1=0.8336
+[seed 45] D_head256_kd: acc=0.8394 f1=0.8346 params=1.080M
+[s45-E_att_head256_ce] epoch 1/20 val_acc=0.4758 val_f1=0.3977
+[s45-E_att_head256_ce] epoch 2/20 val_acc=0.6727 val_f1=0.6611
+[s45-E_att_head256_ce] epoch 3/20 val_acc=0.7364 val_f1=0.7245
+[s45-E_att_head256_ce] epoch 4/20 val_acc=0.7424 val_f1=0.7310
+[s45-E_att_head256_ce] epoch 5/20 val_acc=0.7485 val_f1=0.7324
+[s45-E_att_head256_ce] epoch 6/20 val_acc=0.7636 val_f1=0.7540
+[s45-E_att_head256_ce] epoch 7/20 val_acc=0.7909 val_f1=0.7857
+[s45-E_att_head256_ce] epoch 8/20 val_acc=0.7788 val_f1=0.7698
+[s45-E_att_head256_ce] epoch 9/20 val_acc=0.7939 val_f1=0.7902
+[s45-E_att_head256_ce] epoch 10/20 val_acc=0.7939 val_f1=0.7839
+[s45-E_att_head256_ce] epoch 11/20 val_acc=0.8061 val_f1=0.8017
+[s45-E_att_head256_ce] epoch 12/20 val_acc=0.8152 val_f1=0.8105
+[s45-E_att_head256_ce] epoch 13/20 val_acc=0.8303 val_f1=0.8278
+[s45-E_att_head256_ce] epoch 14/20 val_acc=0.8212 val_f1=0.8175
+[s45-E_att_head256_ce] epoch 15/20 val_acc=0.8273 val_f1=0.8250
+[s45-E_att_head256_ce] epoch 16/20 val_acc=0.8303 val_f1=0.8288
+[s45-E_att_head256_ce] epoch 17/20 val_acc=0.8303 val_f1=0.8289
+[s45-E_att_head256_ce] epoch 18/20 val_acc=0.8273 val_f1=0.8249
+[s45-E_att_head256_ce] epoch 19/20 val_acc=0.8333 val_f1=0.8314
+[s45-E_att_head256_ce] epoch 20/20 val_acc=0.8364 val_f1=0.8347
+[seed 45] E_att_head256_ce: acc=0.8091 f1=0.8016 params=1.192M
+[s45-F_full_att_head256_kd] epoch 1/20 val_acc=0.3515 val_f1=0.2738
+[s45-F_full_att_head256_kd] epoch 2/20 val_acc=0.6273 val_f1=0.6083
+[s45-F_full_att_head256_kd] epoch 3/20 val_acc=0.6818 val_f1=0.6621
+[s45-F_full_att_head256_kd] epoch 4/20 val_acc=0.7273 val_f1=0.7104
+[s45-F_full_att_head256_kd] epoch 5/20 val_acc=0.7273 val_f1=0.7115
+[s45-F_full_att_head256_kd] epoch 6/20 val_acc=0.7636 val_f1=0.7610
+[s45-F_full_att_head256_kd] epoch 7/20 val_acc=0.7848 val_f1=0.7807
+[s45-F_full_att_head256_kd] epoch 8/20 val_acc=0.7970 val_f1=0.7915
+[s45-F_full_att_head256_kd] epoch 9/20 val_acc=0.8030 val_f1=0.8002
+[s45-F_full_att_head256_kd] epoch 10/20 val_acc=0.8212 val_f1=0.8142
+[s45-F_full_att_head256_kd] epoch 11/20 val_acc=0.8212 val_f1=0.8188
+[s45-F_full_att_head256_kd] epoch 12/20 val_acc=0.8091 val_f1=0.8038
+[s45-F_full_att_head256_kd] epoch 13/20 val_acc=0.8333 val_f1=0.8293
+[s45-F_full_att_head256_kd] epoch 14/20 val_acc=0.8273 val_f1=0.8226
+[s45-F_full_att_head256_kd] epoch 15/20 val_acc=0.8182 val_f1=0.8124
+[s45-F_full_att_head256_kd] epoch 16/20 val_acc=0.8303 val_f1=0.8279
+[s45-F_full_att_head256_kd] epoch 17/20 val_acc=0.8273 val_f1=0.8237
+[s45-F_full_att_head256_kd] epoch 18/20 val_acc=0.8424 val_f1=0.8393
+[s45-F_full_att_head256_kd] epoch 19/20 val_acc=0.8364 val_f1=0.8335
+[s45-F_full_att_head256_kd] epoch 20/20 val_acc=0.8424 val_f1=0.8397
+[seed 45] F_full_att_head256_kd: acc=0.8364 f1=0.8282 params=1.192M
+
+============================================================
+SEED 46  (pending: ['A_stock_ce', 'B_stock_kd', 'C_head256_ce', 'D_head256_kd', 'E_att_head256_ce', 'F_full_att_head256_kd'])
+============================================================
+[s46-teacher] epoch 1/20 val_acc=0.6758 val_f1=0.6509
+[s46-teacher] epoch 2/20 val_acc=0.7606 val_f1=0.7487
+[s46-teacher] epoch 3/20 val_acc=0.7636 val_f1=0.7568
+[s46-teacher] epoch 4/20 val_acc=0.7636 val_f1=0.7576
+[s46-teacher] epoch 5/20 val_acc=0.8182 val_f1=0.8160
+[s46-teacher] epoch 6/20 val_acc=0.8152 val_f1=0.8118
+[s46-teacher] epoch 7/20 val_acc=0.8212 val_f1=0.8203
+[s46-teacher] epoch 8/20 val_acc=0.8212 val_f1=0.8169
+[s46-teacher] epoch 9/20 val_acc=0.7909 val_f1=0.7888
+[s46-teacher] epoch 10/20 val_acc=0.8364 val_f1=0.8362
+[s46-teacher] epoch 11/20 val_acc=0.8303 val_f1=0.8260
+[s46-teacher] epoch 12/20 val_acc=0.8121 val_f1=0.8106
+[s46-teacher] epoch 13/20 val_acc=0.8636 val_f1=0.8634
+[s46-teacher] epoch 14/20 val_acc=0.8455 val_f1=0.8461
+[s46-teacher] epoch 15/20 val_acc=0.8606 val_f1=0.8605
+[s46-teacher] epoch 16/20 val_acc=0.8545 val_f1=0.8531
+[s46-teacher] epoch 17/20 val_acc=0.8485 val_f1=0.8481
+[s46-teacher] epoch 18/20 val_acc=0.8606 val_f1=0.8598
+[s46-teacher] epoch 19/20 val_acc=0.8606 val_f1=0.8594
+[s46-teacher] epoch 20/20 val_acc=0.8515 val_f1=0.8513
+[s46-A_stock_ce] epoch 1/20 val_acc=0.6455 val_f1=0.6266
+[s46-A_stock_ce] epoch 2/20 val_acc=0.7303 val_f1=0.7272
+[s46-A_stock_ce] epoch 3/20 val_acc=0.7152 val_f1=0.7009
+[s46-A_stock_ce] epoch 4/20 val_acc=0.7727 val_f1=0.7659
+[s46-A_stock_ce] epoch 5/20 val_acc=0.7758 val_f1=0.7622
+[s46-A_stock_ce] epoch 6/20 val_acc=0.7909 val_f1=0.7757
+[s46-A_stock_ce] epoch 7/20 val_acc=0.7848 val_f1=0.7774
+[s46-A_stock_ce] epoch 8/20 val_acc=0.7970 val_f1=0.7935
+[s46-A_stock_ce] epoch 9/20 val_acc=0.8030 val_f1=0.7996
+[s46-A_stock_ce] epoch 10/20 val_acc=0.7970 val_f1=0.7881
+[s46-A_stock_ce] epoch 11/20 val_acc=0.8303 val_f1=0.8294
+[s46-A_stock_ce] epoch 12/20 val_acc=0.8091 val_f1=0.8051
+[s46-A_stock_ce] epoch 13/20 val_acc=0.8303 val_f1=0.8291
+[s46-A_stock_ce] epoch 14/20 val_acc=0.8273 val_f1=0.8265
+[s46-A_stock_ce] epoch 15/20 val_acc=0.8182 val_f1=0.8173
+[s46-A_stock_ce] epoch 16/20 val_acc=0.8242 val_f1=0.8236
+[s46-A_stock_ce] epoch 17/20 val_acc=0.8303 val_f1=0.8298
+[s46-A_stock_ce] epoch 18/20 val_acc=0.8242 val_f1=0.8233
+[s46-A_stock_ce] epoch 19/20 val_acc=0.8212 val_f1=0.8204
+[s46-A_stock_ce] epoch 20/20 val_acc=0.8242 val_f1=0.8233
+[seed 46] A_stock_ce: acc=0.8242 f1=0.8196 params=1.540M
+[s46-B_stock_kd] epoch 1/20 val_acc=0.6364 val_f1=0.6044
+[s46-B_stock_kd] epoch 2/20 val_acc=0.7333 val_f1=0.7248
+[s46-B_stock_kd] epoch 3/20 val_acc=0.7364 val_f1=0.7182
+[s46-B_stock_kd] epoch 4/20 val_acc=0.7788 val_f1=0.7725
+[s46-B_stock_kd] epoch 5/20 val_acc=0.7909 val_f1=0.7812
+[s46-B_stock_kd] epoch 6/20 val_acc=0.8061 val_f1=0.8017
+[s46-B_stock_kd] epoch 7/20 val_acc=0.8000 val_f1=0.7903
+[s46-B_stock_kd] epoch 8/20 val_acc=0.8030 val_f1=0.7992
+[s46-B_stock_kd] epoch 9/20 val_acc=0.8030 val_f1=0.7982
+[s46-B_stock_kd] epoch 10/20 val_acc=0.8242 val_f1=0.8182
+[s46-B_stock_kd] epoch 11/20 val_acc=0.8303 val_f1=0.8290
+[s46-B_stock_kd] epoch 12/20 val_acc=0.8242 val_f1=0.8229
+[s46-B_stock_kd] epoch 13/20 val_acc=0.8364 val_f1=0.8346
+[s46-B_stock_kd] epoch 14/20 val_acc=0.8212 val_f1=0.8202
+[s46-B_stock_kd] epoch 15/20 val_acc=0.8394 val_f1=0.8384
+[s46-B_stock_kd] epoch 16/20 val_acc=0.8364 val_f1=0.8342
+[s46-B_stock_kd] epoch 17/20 val_acc=0.8273 val_f1=0.8261
+[s46-B_stock_kd] epoch 18/20 val_acc=0.8303 val_f1=0.8290
+[s46-B_stock_kd] epoch 19/20 val_acc=0.8333 val_f1=0.8319
+[s46-B_stock_kd] epoch 20/20 val_acc=0.8333 val_f1=0.8319
+[seed 46] B_stock_kd: acc=0.8364 f1=0.8291 params=1.540M
+[s46-C_head256_ce] epoch 1/20 val_acc=0.5455 val_f1=0.4948
+[s46-C_head256_ce] epoch 2/20 val_acc=0.6848 val_f1=0.6617
+[s46-C_head256_ce] epoch 3/20 val_acc=0.7091 val_f1=0.6865
+[s46-C_head256_ce] epoch 4/20 val_acc=0.7576 val_f1=0.7491
+[s46-C_head256_ce] epoch 5/20 val_acc=0.7606 val_f1=0.7514
+[s46-C_head256_ce] epoch 6/20 val_acc=0.7606 val_f1=0.7541
+[s46-C_head256_ce] epoch 7/20 val_acc=0.7576 val_f1=0.7467
+[s46-C_head256_ce] epoch 8/20 val_acc=0.7879 val_f1=0.7861
+[s46-C_head256_ce] epoch 9/20 val_acc=0.7970 val_f1=0.7890
+[s46-C_head256_ce] epoch 10/20 val_acc=0.7848 val_f1=0.7772
+[s46-C_head256_ce] epoch 11/20 val_acc=0.8091 val_f1=0.8051
+[s46-C_head256_ce] epoch 12/20 val_acc=0.8121 val_f1=0.8101
+[s46-C_head256_ce] epoch 13/20 val_acc=0.8121 val_f1=0.8109
+[s46-C_head256_ce] epoch 14/20 val_acc=0.8182 val_f1=0.8165
+[s46-C_head256_ce] epoch 15/20 val_acc=0.8212 val_f1=0.8195
+[s46-C_head256_ce] epoch 16/20 val_acc=0.8303 val_f1=0.8290
+[s46-C_head256_ce] epoch 17/20 val_acc=0.8242 val_f1=0.8237
+[s46-C_head256_ce] epoch 18/20 val_acc=0.8212 val_f1=0.8203
+[s46-C_head256_ce] epoch 19/20 val_acc=0.8182 val_f1=0.8169
+[s46-C_head256_ce] epoch 20/20 val_acc=0.8182 val_f1=0.8174
+[seed 46] C_head256_ce: acc=0.8212 f1=0.8167 params=1.080M
+[s46-D_head256_kd] epoch 1/20 val_acc=0.4394 val_f1=0.3722
+[s46-D_head256_kd] epoch 2/20 val_acc=0.6970 val_f1=0.6809
+[s46-D_head256_kd] epoch 3/20 val_acc=0.7000 val_f1=0.6748
+[s46-D_head256_kd] epoch 4/20 val_acc=0.7424 val_f1=0.7367
+[s46-D_head256_kd] epoch 5/20 val_acc=0.7455 val_f1=0.7361
+[s46-D_head256_kd] epoch 6/20 val_acc=0.7485 val_f1=0.7386
+[s46-D_head256_kd] epoch 7/20 val_acc=0.7636 val_f1=0.7597
+[s46-D_head256_kd] epoch 8/20 val_acc=0.7667 val_f1=0.7610
+[s46-D_head256_kd] epoch 9/20 val_acc=0.7879 val_f1=0.7829
+[s46-D_head256_kd] epoch 10/20 val_acc=0.7939 val_f1=0.7910
+[s46-D_head256_kd] epoch 11/20 val_acc=0.7909 val_f1=0.7872
+[s46-D_head256_kd] epoch 12/20 val_acc=0.8000 val_f1=0.7988
+[s46-D_head256_kd] epoch 13/20 val_acc=0.8000 val_f1=0.7968
+[s46-D_head256_kd] epoch 14/20 val_acc=0.8121 val_f1=0.8110
+[s46-D_head256_kd] epoch 15/20 val_acc=0.7909 val_f1=0.7880
+[s46-D_head256_kd] epoch 16/20 val_acc=0.8030 val_f1=0.7994
+[s46-D_head256_kd] epoch 17/20 val_acc=0.8030 val_f1=0.8014
+[s46-D_head256_kd] epoch 18/20 val_acc=0.8000 val_f1=0.7977
+[s46-D_head256_kd] epoch 19/20 val_acc=0.7970 val_f1=0.7950
+[s46-D_head256_kd] epoch 20/20 val_acc=0.8000 val_f1=0.7978
+[seed 46] D_head256_kd: acc=0.8273 f1=0.8234 params=1.080M
+[s46-E_att_head256_ce] epoch 1/20 val_acc=0.5333 val_f1=0.4807
+[s46-E_att_head256_ce] epoch 2/20 val_acc=0.6212 val_f1=0.5895
+[s46-E_att_head256_ce] epoch 3/20 val_acc=0.7727 val_f1=0.7707
+[s46-E_att_head256_ce] epoch 4/20 val_acc=0.7152 val_f1=0.7007
+[s46-E_att_head256_ce] epoch 5/20 val_acc=0.7848 val_f1=0.7818
+[s46-E_att_head256_ce] epoch 6/20 val_acc=0.7667 val_f1=0.7586
+[s46-E_att_head256_ce] epoch 7/20 val_acc=0.7909 val_f1=0.7826
+[s46-E_att_head256_ce] epoch 8/20 val_acc=0.7909 val_f1=0.7872
+[s46-E_att_head256_ce] epoch 9/20 val_acc=0.8061 val_f1=0.7999
+[s46-E_att_head256_ce] epoch 10/20 val_acc=0.7848 val_f1=0.7802
+[s46-E_att_head256_ce] epoch 11/20 val_acc=0.8091 val_f1=0.8069
+[s46-E_att_head256_ce] epoch 12/20 val_acc=0.8152 val_f1=0.8141
+[s46-E_att_head256_ce] epoch 13/20 val_acc=0.8152 val_f1=0.8116
+[s46-E_att_head256_ce] epoch 14/20 val_acc=0.8242 val_f1=0.8224
+[s46-E_att_head256_ce] epoch 15/20 val_acc=0.8303 val_f1=0.8288
+[s46-E_att_head256_ce] epoch 16/20 val_acc=0.8273 val_f1=0.8240
+[s46-E_att_head256_ce] epoch 17/20 val_acc=0.8333 val_f1=0.8298
+[s46-E_att_head256_ce] epoch 18/20 val_acc=0.8152 val_f1=0.8130
+[s46-E_att_head256_ce] epoch 19/20 val_acc=0.8273 val_f1=0.8241
+[s46-E_att_head256_ce] epoch 20/20 val_acc=0.8242 val_f1=0.8207
+[seed 46] E_att_head256_ce: acc=0.8091 f1=0.8046 params=1.192M
+[s46-F_full_att_head256_kd] epoch 1/20 val_acc=0.4455 val_f1=0.3912
+[s46-F_full_att_head256_kd] epoch 2/20 val_acc=0.6394 val_f1=0.6212
+[s46-F_full_att_head256_kd] epoch 3/20 val_acc=0.7485 val_f1=0.7372
+[s46-F_full_att_head256_kd] epoch 4/20 val_acc=0.7182 val_f1=0.7022
+[s46-F_full_att_head256_kd] epoch 5/20 val_acc=0.7939 val_f1=0.7855
+[s46-F_full_att_head256_kd] epoch 6/20 val_acc=0.7576 val_f1=0.7450
+[s46-F_full_att_head256_kd] epoch 7/20 val_acc=0.7848 val_f1=0.7764
+[s46-F_full_att_head256_kd] epoch 8/20 val_acc=0.7758 val_f1=0.7635
+[s46-F_full_att_head256_kd] epoch 9/20 val_acc=0.8121 val_f1=0.8056
+[s46-F_full_att_head256_kd] epoch 10/20 val_acc=0.7879 val_f1=0.7803
+[s46-F_full_att_head256_kd] epoch 11/20 val_acc=0.7939 val_f1=0.7834
+[s46-F_full_att_head256_kd] epoch 12/20 val_acc=0.7970 val_f1=0.7896
+[s46-F_full_att_head256_kd] epoch 13/20 val_acc=0.8000 val_f1=0.7933
+[s46-F_full_att_head256_kd] epoch 14/20 val_acc=0.8091 val_f1=0.8037
+[s46-F_full_att_head256_kd] epoch 15/20 val_acc=0.7879 val_f1=0.7792
+[s46-F_full_att_head256_kd] epoch 16/20 val_acc=0.8030 val_f1=0.7967
+[s46-F_full_att_head256_kd] epoch 17/20 val_acc=0.8061 val_f1=0.8004
+[s46-F_full_att_head256_kd] epoch 18/20 val_acc=0.8000 val_f1=0.7938
+[s46-F_full_att_head256_kd] epoch 19/20 val_acc=0.8091 val_f1=0.8043
+[s46-F_full_att_head256_kd] early stopping at epoch 19
+[seed 46] F_full_att_head256_kd: acc=0.8212 f1=0.8120 params=1.192M
+
+=== ABLATION: test accuracy / macro-F1, mean +/- SD over seeds ===
+A_stock_ce               acc= 83.52 +/- 1.63  f1= 83.06 +/- 1.55  params=1.540M  n=5
+B_stock_kd               acc= 84.18 +/- 1.65  f1= 83.59 +/- 1.92  params=1.540M  n=5
+C_head256_ce             acc= 82.36 +/- 1.65  f1= 81.97 +/- 1.71  params=1.080M  n=5
+D_head256_kd             acc= 82.42 +/- 1.03  f1= 81.75 +/- 1.23  params=1.080M  n=5
+E_att_head256_ce         acc= 82.06 +/- 1.06  f1= 81.60 +/- 1.20  params=1.192M  n=5
+F_full_att_head256_kd    acc= 82.73 +/- 1.19  f1= 81.99 +/- 1.39  params=1.192M  n=5
+
+=== PAIRED CONTRASTS (accuracy, percentage points) ===
+contrast                                      diff            95% CI       p  p_Holm      d  wins
+KD effect, stock head           (B - A)      +0.67 [ -2.18, +3.51]   0.551   1.000  +0.29  3/5
+Narrow head effect, no KD       (C - A)      -1.15 [ -4.61, +2.31]   0.408   1.000  -0.41  1/5
+Attention effect, no KD         (E - C)      -0.30 [ -3.37, +2.77]   0.798   1.000  -0.12  2/5
+KD effect, narrow head          (D - C)      +0.06 [ -0.91, +1.03]   0.871   1.000  +0.08  3/5
+KD effect, with attention       (F - E)      +0.67 [ -1.38, +2.72]   0.418   1.000  +0.40  4/5
+Attention effect, with KD       (F - D)      +0.30 [ -1.32, +1.92]   0.631   1.000  +0.23  2/5
+Full AgriLite vs stock          (F - A)      -0.79 [ -2.79, +1.21]   0.336   1.000  -0.49  2/5
+
+How to read it: a contrast whose 95% CI excludes 0 AND p_Holm < 0.05 is a supported effect; otherwise report it as 'not detected'.

@@ -1,0 +1,192 @@
+{
+  "seed42": {
+    "A_stock_ce": {
+      "acc": 0.8333,
+      "f1": 0.8302,
+      "params_M": 1.54,
+      "kd": false
+    },
+    "B_stock_kd": {
+      "acc": 0.8576,
+      "f1": 0.8545,
+      "params_M": 1.54,
+      "kd": true
+    },
+    "C_head256_ce": {
+      "acc": 0.8303,
+      "f1": 0.8258,
+      "params_M": 1.08,
+      "kd": false
+    },
+    "D_head256_kd": {
+      "acc": 0.8242,
+      "f1": 0.8177,
+      "params_M": 1.08,
+      "kd": true
+    },
+    "E_att_head256_ce": {
+      "acc": 0.8273,
+      "f1": 0.822,
+      "params_M": 1.192,
+      "kd": false
+    },
+    "F_full_att_head256_kd": {
+      "acc": 0.8364,
+      "f1": 0.8318,
+      "params_M": 1.192,
+      "kd": true
+    }
+  },
+  "seed43": {
+    "A_stock_ce": {
+      "acc": 0.8273,
+      "f1": 0.824,
+      "params_M": 1.54,
+      "kd": false
+    },
+    "B_stock_kd": {
+      "acc": 0.8182,
+      "f1": 0.8094,
+      "params_M": 1.54,
+      "kd": true
+    },
+    "C_head256_ce": {
+      "acc": 0.8091,
+      "f1": 0.8036,
+      "params_M": 1.08,
+      "kd": false
+    },
+    "D_head256_kd": {
+      "acc": 0.8182,
+      "f1": 0.8081,
+      "params_M": 1.08,
+      "kd": true
+    },
+    "E_att_head256_ce": {
+      "acc": 0.8273,
+      "f1": 0.8237,
+      "params_M": 1.192,
+      "kd": false
+    },
+    "F_full_att_head256_kd": {
+      "acc": 0.8091,
+      "f1": 0.7991,
+      "params_M": 1.192,
+      "kd": true
+    }
+  },
+  "seed44": {
+    "A_stock_ce": {
+      "acc": 0.8636,
+      "f1": 0.8575,
+      "params_M": 1.54,
+      "kd": false
+    },
+    "B_stock_kd": {
+      "acc": 0.8394,
+      "f1": 0.8316,
+      "params_M": 1.54,
+      "kd": true
+    },
+    "C_head256_ce": {
+      "acc": 0.8091,
+      "f1": 0.8062,
+      "params_M": 1.08,
+      "kd": false
+    },
+    "D_head256_kd": {
+      "acc": 0.8121,
+      "f1": 0.8037,
+      "params_M": 1.08,
+      "kd": true
+    },
+    "E_att_head256_ce": {
+      "acc": 0.8303,
+      "f1": 0.8278,
+      "params_M": 1.192,
+      "kd": false
+    },
+    "F_full_att_head256_kd": {
+      "acc": 0.8333,
+      "f1": 0.8282,
+      "params_M": 1.192,
+      "kd": true
+    }
+  },
+  "seed45": {
+    "A_stock_ce": {
+      "acc": 0.8273,
+      "f1": 0.8218,
+      "params_M": 1.54,
+      "kd": false
+    },
+    "B_stock_kd": {
+      "acc": 0.8576,
+      "f1": 0.8548,
+      "params_M": 1.54,
+      "kd": true
+    },
+    "C_head256_ce": {
+      "acc": 0.8485,
+      "f1": 0.8459,
+      "params_M": 1.08,
+      "kd": false
+    },
+    "D_head256_kd": {
+      "acc": 0.8394,
+      "f1": 0.8346,
+      "params_M": 1.08,
+      "kd": true
+    },
+    "E_att_head256_ce": {
+      "acc": 0.8091,
+      "f1": 0.8016,
+      "params_M": 1.192,
+      "kd": false
+    },
+    "F_full_att_head256_kd": {
+      "acc": 0.8364,
+      "f1": 0.8282,
+      "params_M": 1.192,
+      "kd": true
+    }
+  },
+  "seed46": {
+    "A_stock_ce": {
+      "acc": 0.8242,
+      "f1": 0.8196,
+      "params_M": 1.54,
+      "kd": false
+    },
+    "B_stock_kd": {
+      "acc": 0.8364,
+      "f1": 0.8291,
+      "params_M": 1.54,
+      "kd": true
+    },
+    "C_head256_ce": {
+      "acc": 0.8212,
+      "f1": 0.8167,
+      "params_M": 1.08,
+      "kd": false
+    },
+    "D_head256_kd": {
+      "acc": 0.8273,
+      "f1": 0.8234,
+      "params_M": 1.08,
+      "kd": true
+    },
+    "E_att_head256_ce": {
+      "acc": 0.8091,
+      "f1": 0.8046,
+      "params_M": 1.192,
+      "kd": false
+    },
+    "F_full_att_head256_kd": {
+      "acc": 0.8212,
+      "f1": 0.812,
+      "params_M": 1.192,
+      "kd": true
+    }
+  }
+}
